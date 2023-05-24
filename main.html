@@ -11,33 +11,40 @@
 <!--     <script type="text/javascript" src="./script.js">
 </script>
  -->
-	<form action="" method="post">
+	<form method="post">
 		
-			<label for="name"> Name*</label> 
-			<input type="text" id="name" required><br><br>
+			<label for="name">Name*</label> 
+			<input type="text" id="name" required><br>
 		
-			<label for="emai"> Email*</label>
-			<input type="email" id="email" required><br><br>
+			<label for="emai">Email*</label>
+			<input type="email" id="email" required><br>
 		
-				<label for="gender"> Gender*</label>
-			Male: <input type="radio" name="gender" id="gender" required>
-			Female: <input type="radio" name="gender" id="gender" required><br><br>
+				<label for="gender">Gender*</label>
+			<input type="radio" name="gender" id="gender" required>Male
+		    <input type="radio" name="gender" id="gender" required>Female<br>
 		
-			<label for="laptop brands"> Laptop Brands:</label>
-			Apple: <input type="checkbox" id="laptop" name="laptop brands">
-			Asus: <input type="checkbox" id="laptop" name="laptop brands">
-			HP: <input type="checkbox" id="laptop" name="laptop brands"><br><br>
+			<label for="laptop">Laptop Brands:</label>
+			<select id="laptop">
+		                <option value="Apple">Apple</option>
+		                <option value="Asus">Asus</option>
+		                <option value="HP">HP</option>
+	        </select><br>
+
 		
 			<label for="age"> Age*</label>
-			<input type="number" id="age" required><br><br>
+			<input type="text" id="age" required><br>
 		
-			<label for="dob"> Dob*</label>
-			<input type="date" id="date" required><br><br>
+			<label for="dob"> DOB*</label>
+			<input type="date" id="dob" required><br>
 		
 		    <label for="password"> Password*</label>
-			<input type="password" id="password" required><br><br>
+			<input type="password" id="password" required><br>
 		
-			<input type="submit" value="submit button">
+			<button type="submit">Submit</button><br>
+
+		    <label for="portfolio">Portfolio</label>
+		    <input type="url" id="portfolio">
+	</form>
 		
 </body>
 </html>
